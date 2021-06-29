@@ -1,0 +1,666 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+
+html {
+    font-size: 15px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.outer {
+    width: 100%;
+    color: #fff;
+}
+
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/gym/the-darkness-3183028_1920.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+header nav h1 {
+    margin-top: 0.7rem;
+}
+
+header nav ul {
+    display: block;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1.2rem;
+}
+
+header nav .btn {
+    width: 140px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0.5rem;
+}
+
+header nav .toggle {
+    display: none;
+}
+
+header .banner {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+header .banner h2 {
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1px gray;
+    -webkit-text-fill-color: transparent;
+}
+
+header .banner h1 {
+    font-size: 6rem;
+    margin: 0;
+    margin-top: -1.2rem;
+}
+
+header .banner .b_btn {
+    width: 130px;
+    height: 35px;
+    border: 2px solid gray;
+    background: none;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1rem;
+}
+
+
+/*training*/
+
+.training .personal {
+    width: 45%;
+    background-image: url(../img/gym/barbell-1839086_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 7% 0;
+}
+
+.training .group {
+    width: 45%;
+    background-image: url(../img/gym/dark-1839088_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 7% 0;
+}
+
+.training h1 {
+    font-size: 2rem;
+}
+
+.training p {
+    font-size: 1rem;
+    margin: 0;
+    margin-top: -1rem;
+    color: gray;
+}
+
+.training .view_btn {
+    width: 135px;
+    height: 35px;
+    border: 2px solid gray;
+    background: none;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1rem;
+}
+
+
+/*offer*/
+
+.offer {
+    padding-top: 2%;
+}
+
+.offer .h1 {
+    width: 100%;
+    font-size: 4.5rem;
+    -webkit-text-stroke: 1px gray;
+    -webkit-text-fill-color: transparent;
+}
+
+.offer .body-build {
+    width: 30%;
+}
+
+.offer .body-build img {
+    width: 100%;
+}
+
+.offer .body-build h1 {
+    font-size: 2rem;
+}
+
+.offer .body-build p {
+    font-size: 1rem;
+    margin-top: -1rem;
+    color: gray;
+}
+
+
+/*muscle-gain*/
+
+.muscle-gain {
+    padding: 5% 0;
+}
+
+.muscle-gain .equal {
+    width: 31.5%;
+    padding: 22% 8% 3% 0;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 2rem;
+}
+
+.muscle-gain .one {
+    background-image: url(../img/gym/tyre-flipping-2141109_1920.jpg);
+}
+
+.muscle-gain .two {
+    background-image: url(../img/gym/blur-1972569_1920.jpg);
+}
+
+.muscle-gain .three {
+    background-image: url(../img/gym/trx-3293471_1920.jpg);
+}
+
+.muscle-gain .short {
+    width: 26.5%;
+    padding: 22% 8% 3% 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+.muscle-gain .four {
+    background-image: url(../img/gym/sport-1244925_1920.jpg);
+}
+
+.muscle-gain .five {
+    background-image: url(../img/gym/kettlebell-2052765_1920.jpg);
+}
+
+.muscle-gain .long {
+    width: 41.5%;
+    padding: 22% 8% 3% 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+.muscle-gain .six {
+    background-image: url(../img/gym/weights-79587_1920.jpg);
+}
+
+.muscle-gain img {
+    width: 100%;
+}
+
+
+/*pricing*/
+
+.pricing h1 {
+    width: 100%;
+    font-size: 4.5rem;
+    -webkit-text-stroke: 1px gray;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing .price {
+    width: 31.5%;
+}
+
+.price {
+    border: 1px solid gray;
+    text-align: left;
+    padding: 2%;
+}
+
+.price h2 {
+    margin-left: 1.2rem;
+    font-size: 2rem;
+}
+
+.price span {
+    color: blue;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+    margin-top: 2rem;
+}
+
+.price .dollar {
+    margin: 0;
+    margin-left: 1.2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.price button {
+    width: 90%;
+    height: 50px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    margin-left: 1rem;
+    margin-top: 1.7rem;
+}
+
+
+/*about*/
+
+.about {
+    color: #fff;
+    padding: 5% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.about .coach {
+    width: 49%;
+}
+
+.about .coach img {
+    width: 100%;
+}
+
+.about .about-me {
+    width: 49%;
+    margin-top: 5rem;
+}
+
+.about .about-me p {
+    line-height: 1.8rem;
+}
+
+.about .about-me .courses {
+    width: 130px;
+    height: 35px;
+    border: 2px solid gray;
+    background: none;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1rem;
+}
+
+
+/*blog*/
+
+.blog {
+    color: #fff;
+    text-align: left;
+}
+
+.blog h1 {
+    width: 100%;
+    font-size: 4.5rem;
+    -webkit-text-stroke: 1px gray;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.blog .blogger {
+    width: 48.5%;
+}
+
+.blog .blogger img {
+    width: 100%;
+}
+
+.blog .blogger h6 {
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0rem;
+}
+
+
+/*last-part*/
+
+.last-part {
+    margin: 6rem 0;
+    background-color: #494242;
+}
+
+.last-part .top img {
+    width: 100%;
+}
+
+.last-part .bottom {
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+
+.last-part .bottom .self {
+    width: 31.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.last-part .bottom .self .stop {
+    width: 20%;
+    margin-top: 2.5rem;
+}
+
+.last-part .bottom .self .stop span {
+    color: #fff;
+    border: 2px solid blue;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    padding-top: 0.7rem;
+    background-color: blue;
+}
+
+.last-part .bottom .self .start {
+    width: 80%;
+    text-align: left;
+}
+
+.last-part .bottom .self .start h5 {
+    font-size: 1rem;
+    margin-bottom: -0.5rem;
+}
+
+.last-part .bottom .self .start p {
+    font-weight: 100;
+    color: gray;
+    line-height: 1.7rem;
+    margin-bottom: -1rem;
+}
+
+
+/*footer*/
+
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+footer h1 {
+    margin-bottom: 2.5rem;
+}
+
+footer ul {
+    display: block;
+}
+
+footer li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 4rem;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer span {
+    margin: 2rem 0;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    padding-top: 0.3rem;
+    margin-left: 1.5rem;
+}
+
+footer .htt {
+    border: none;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    /*header*/
+    header nav ul {
+        display: none;
+        margin-left: -1rem;
+    }
+    header nav ul li {
+        display: inline-flex;
+    }
+    header nav ul li a {
+        color: #fff;
+    }
+    header nav ul li a:hover {
+        color: tomato;
+    }
+    header nav .toggle {
+        display: block;
+        border: none;
+        background: none;
+        color: #fff;
+        font-size: 2rem;
+        text-align: right;
+    }
+    header nav .toggle:hover {
+        cursor: pointer;
+    }
+    header nav .btn {
+        display: none;
+    }
+    /*banner*/
+    header .banner {
+        margin-left: 0.8rem;
+    }
+    header .banner h2 {
+        font-size: 2rem;
+    }
+    header .banner h1 {
+        font-size: 5rem;
+    }
+    /*training*/
+    .training {
+        padding: 15%;
+    }
+    .training .personal {
+        width: 95%;
+        margin-top: 3rem;
+        background-size: cover;
+    }
+    .training .group {
+        width: 95%;
+        margin-top: 3rem;
+        background-size: cover;
+    }
+    .training h1 {
+        font-size: 1.5rem;
+    }
+    .training p {
+        font-size: 0.8rem;
+    }
+    .training .view_btn {
+        width: 120px;
+        height: 30px;
+    }
+    /*offer*/
+    .offer .h1 {
+        font-size: 3rem;
+    }
+    .offer .body-build {
+        width: 90%;
+        margin-left: 1.7rem;
+        margin-bottom: 3.5rem;
+    }
+    .offer .body-build img {
+        width: 80%;
+    }
+    .offer .body-build h1 {
+        font-size: 1.5rem;
+    }
+    .offer .body-build p {
+        font-size: 0.8rem;
+    }
+    /*muscle-gain*/
+    .muscle-gain .equal {
+        margin-left: 1.2rem;
+        width: 95%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .muscle-gain .short {
+        width: 45%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 1.5rem;
+    }
+    .muscle-gain .long {
+        width: 90%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 1.2rem;
+    }
+    .muscle-gain img {
+        width: 100%;
+    }
+    /*pricing*/
+    .pricing .price {
+        width: 90%;
+        margin-left: 1.6rem;
+        margin-bottom: 2rem;
+    }
+    .pricing h1 {
+        font-size: 3rem;
+    }
+    /*about*/
+    .about .coach {
+        width: 90%;
+        margin-top: 3rem;
+        margin-left: 1.5rem;
+    }
+    .about .about-me {
+        width: 90%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+    .about .about-me p {
+        line-height: 1.8rem;
+    }
+    .about .about-me .courses {
+        width: 125px;
+        height: 30px;
+    }
+    /*blog*/
+    .blog h1 {
+        font-size: 3rem;
+    }
+    .blog .blogger {
+        width: 90%;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    /*last-part*/
+    .last-part .bottom .self {
+        width: 50%;
+        text-align: center;
+        margin-left: 8rem;
+    }
+    .last-part .bottom .self .stop {
+        width: 100%;
+    }
+    .last-part .bottom .self .start {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.8rem;
+        margin-top: -1.5rem;
+    }
+    .last-part .bottom .self .start h5 {
+        font-size: 1.8rem;
+    }
+    .last-part .bottom .self .start p {
+        font-size: 1.5rem;
+    }
+    /*footer*/
+    footer li {
+        margin-left: 0.3rem;
+        display: inline-flex;
+        font-size: 0.9rem;
+    }
+    footer hr {
+        background-color: white;
+        border: none;
+        height: 1px;
+    }
+    footer p {
+        margin-top: 2rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+/*@media (max-width:480px) {
+    header {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+}
+*/
